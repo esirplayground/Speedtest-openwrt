@@ -10,6 +10,10 @@ PKG_NAME:=speedtest-openwrt
 PKG_VERSION:=1.0
 PKG_RELEASE:=1
 
+PKG_LICENSE:=GPLv3
+PKG_LICENSE_FILES:=LICENSE
+PKG_MAINTAINER:=eSir Playground
+
 include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
