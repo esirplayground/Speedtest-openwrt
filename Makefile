@@ -40,8 +40,8 @@ define Build/Compile
 endef
 
 define Package/$(PKG_NAME)/install
-	$(INSTALL_DIR) $(1)/usr/bin/speedtest
-	$(INSTALL_BIN) $(PKG_BUILD_DIR)/$(PKG_NAME)/speedtest $(1)/usr/bin/speedtest
+	$(INSTALL_DIR) $(1)/usr/bin
+	$(INSTALL_BIN) $(PKG_BUILD_DIR)/$(PKG_NAME)/speedtest $(1)/usr/bin
 endef
 
 define Package/$(PKG_NAME)/postinst
