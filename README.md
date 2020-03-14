@@ -4,4 +4,6 @@ Command line interface for testing internet bandwidth using Speedtest.net
 
 # Usage
 
-/usr/bin/speedtest/speedtest
+In cmdline tools window，type `speedtest` and press `Enter`
+
+Example: `root@OpenWrt:/#speedtest`
